@@ -146,7 +146,7 @@ Technology tags are static labels with a thin lower border, muted text and no fi
 
 ### Navigation
 
-Compact Manrope labels sit opposite the monogram and name. Links turn apricot on hover. On mobile, a bordered Menu button reveals vertically stacked links with dividers; its expanded state is exposed to assistive technology.
+Compact Manrope labels sit opposite the two-line personal signature. Links turn apricot on hover. On mobile, a bordered Menu button reveals vertically stacked links with dividers; its expanded state is exposed to assistive technology.
 
 ### Skill Rows and Timeline
 
@@ -174,3 +174,5 @@ Native details elements use thin dividers and a plus that becomes a minus when o
 - Don't style static technology tags as interactive filters.
 
 The portrait uses `assets/vincenzo-galiano-trasparente.png`, with a transparent container and `object-fit: cover` to give the subject a prominent scale, with transparent margins retained in the source. The original JPEG is retained. Project participation is labelled «Co-sviluppatore del progetto».
+
+The header signature displays “Vincenzo” in upright Newsreader, 36px (32px on mobile), above “GALIANO” in 11px Manrope with .28em tracking. The first name is ivory and the surname apricot; no terminal dot.
