@@ -1,28 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1">
-  <title>Il mio sito personale</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #101827;
-      color: white;
-      text-align: center;
-      padding: 60px 20px;
-    }
-    h1 { color: #60a5fa; }
-    a { color: #93c5fd; }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vincenzo Galiano — Sviluppatore C# .NET e Database</title>
+  <meta name="description" content="Vincenzo Galiano, sviluppatore software a Napoli. C# e .NET, back-end, REST API, PostgreSQL e SQL Server. Competenze, esperienze e contatti.">
+  <meta name="theme-color" content="#132c29">
+  <meta property="og:title" content="Vincenzo Galiano — Sviluppatore software">
+  <meta property="og:description" content="Dal codice ai dati. Sviluppo back-end, applicazioni desktop e integrazioni software.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:url" content="https://vincenzogaliano97.github.io/">
+  <meta property="og:image" content="https://vincenzogaliano97.github.io/assets/vincenzo-galiano-trasparente.png">
+  <link rel="canonical" href="https://vincenzogaliano97.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/manrope.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>Ciao, sono Mariano!</h1>
-  <p>Benvenuto nel mio sito personale.</p>
-  <p>Qui pubblicherò i miei progetti.</p>
-  <a href="https://github.com">
-    Visita GitHub
-  </a>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><symbol id="arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol><symbol id="arrow-right" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol></svg>
+  <a class="skip" href="#contenuto">Vai al contenuto</a>
+  <header class="header" id="inizio"><div class="wrap header-inner">
+    <a class="identity" href="#inizio" aria-label="Vincenzo Galiano, inizio pagina"><span class="monogram">vg<span>.</span></span><span>Vincenzo<br>Galiano</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" type="button">Menu <span aria-hidden="true"></span></button>
+    <nav id="navigation" aria-label="Navigazione principale"><a href="#approccio">Approccio</a><a href="#competenze">Competenze</a><a href="#progetti">Progetti</a><a href="#percorso">Percorso</a><a class="nav-contact" href="#contatti">Parliamone <svg aria-hidden="true"><use href="#arrow"/></svg></a></nav>
+  </div></header>
+  <main id="contenuto">
+    <section class="hero" aria-labelledby="hero-title"><div class="wrap hero-grid">
+      <div class="hero-copy"><h1 id="hero-title">Le idee.<br>Il codice.<br><em>Le connessioni.</em></h1>
+        <p class="hero-role">Sviluppatore C# .NET · Back-end & Database</p>
+        <p class="hero-description">Sono Vincenzo Galiano. Sviluppo software che mette in relazione applicazioni, dati e processi. Dalla logica di business alle API, trasformo le esigenze in strumenti concreti.</p>
+        <div class="hero-actions"><a class="button" href="#competenze">Esplora le mie competenze <svg aria-hidden="true"><use href="#arrow-right"/></svg></a><a class="quiet-link" href="https://github.com/vincenzogaliano97" target="_blank" rel="noopener noreferrer">GitHub <svg aria-hidden="true"><use href="#arrow"/></svg></a></div>
+      </div>
+      <figure class="portrait"><div class="portrait-image"><img src="assets/vincenzo-galiano-trasparente.png" alt="Vincenzo Galiano" width="1280" height="1280" fetchpriority="high"></div><figcaption><span>Vincenzo Galiano</span><span>Software Developer</span></figcaption></figure>
+      <div class="hero-bottom"><span class="location"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> Napoli, Italia</span><a href="#approccio">Conosci il mio lavoro <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div>
+    </div></section>
+    <div class="technology-strip" aria-label="Tecnologie principali"><div class="wrap"><span>C# & .NET</span><span>REST API</span><span>PostgreSQL</span><span>SQL Server</span><span>Visual Basic</span><span>T-SQL</span></div></div>
+    <section class="section approach" id="approccio" aria-labelledby="approach-title"><div class="wrap two-columns">
+      <h2 id="approach-title">Capire il problema.<br><em>Scrivere la soluzione.</em></h2><div class="approach-copy"><p class="lead">La passione per la tecnologia è il punto di partenza. La curiosità è ciò che mi fa andare avanti.</p><p>Mi occupo di sviluppo back-end, applicazioni desktop e database. Mi piace entrare nella logica di un sistema, capire come si muovono i dati e costruire le connessioni che servono a farlo funzionare.</p><p>Dal 2021 lavoro nell’evoluzione di software aziendali: nuove funzionalità, integrazioni e ottimizzazione delle applicazioni esistenti. Affronto ogni progetto come un’occasione per imparare e trovare soluzioni efficaci.</p><a class="text-link" href="#percorso">Il mio percorso <svg aria-hidden="true"><use href="#arrow"/></svg></a></div>
+    </div></section>
+    <section class="section skills wrap" id="competenze" aria-labelledby="skills-title">
+      <div class="section-heading"><h2 id="skills-title">Dal back-end ai dati.<br><em>Un lavoro connesso.</em></h2><p>Le tecnologie con cui sviluppo.<br>Le competenze che metto in pratica.</p></div>
+      <div class="skill-list">
+        <article class="skill-row"><h3>Back-end & <br>logica di business</h3><div><p>Sviluppo e manutenzione di componenti lato server. Analizzo le regole applicative e le traduco nella logica che sostiene le funzionalità del software.</p><ul class="tags" aria-label="Tecnologie back-end"><li>C#</li><li>.NET</li><li>Business logic</li><li>Debugging</li></ul></div><svg class="skill-symbol" viewBox="0 0 80 80" aria-hidden="true"><path d="m26 20-20 20 20 20m28-40 20 20-20 20M46 12 34 68"/></svg></article>
+        <article class="skill-row"><h3>Database & <br>prestazioni</h3><div><p>Progetto e gestisco tabelle, query, viste e stored procedure. Lavoro su indici e ottimizzazione per migliorare le prestazioni delle applicazioni.</p><ul class="tags" aria-label="Tecnologie database"><li>PostgreSQL</li><li>SQL Server</li><li>T-SQL</li><li>Query optimization</li></ul></div><svg class="skill-symbol" viewBox="0 0 80 80" aria-hidden="true"><ellipse cx="40" cy="18" rx="27" ry="10"/><path d="M13 18v44c0 14 54 14 54 0V18M13 40c0 14 54 14 54 0"/></svg></article>
+        <article class="skill-row"><h3>API & <br>integrazioni</h3><div><p>Progetto e sviluppo server REST API per collegare servizi e applicazioni esterne. Realizzo integrazioni EDI per automatizzare lo scambio di dati con partner e fornitori.</p><ul class="tags" aria-label="Tecnologie integrazioni"><li>REST API</li><li>EDI</li><li>Scambio dati</li></ul></div><svg class="skill-symbol" viewBox="0 0 80 80" aria-hidden="true"><rect x="5" y="25" width="22" height="30" rx="3"/><rect x="53" y="25" width="22" height="30" rx="3"/><path d="M27 34h26m-7-7 7 7-7 7M53 48H27m7-7-7 7 7 7"/></svg></article>
+        <article class="skill-row"><h3>Applicazioni <br>desktop</h3><div><p>Manutenzione ed evoluzione di gestionali in Visual Basic: form, moduli e nuove funzionalità, con attenzione ai requisiti degli utenti e alla stabilità del software.</p><ul class="tags" aria-label="Tecnologie desktop"><li>Visual Basic</li><li>Gestionali</li><li>Form & moduli</li></ul></div><svg class="skill-symbol" viewBox="0 0 80 80" aria-hidden="true"><rect x="7" y="11" width="66" height="47" rx="3"/><path d="M7 22h66M29 70h22M40 58v12M17 17h1m5 0h1m5 0h1"/></svg></article>
+      </div>
+    </section>
+    <section class="projects section" id="progetti" aria-labelledby="projects-title"><div class="wrap">
+      <div class="section-heading"><h2 id="projects-title">Idee condivise.<br><em>Software concreto.</em></h2><p>Due progetti di cui sono co-sviluppatore.<br>Esigenze diverse, la stessa passione per lo sviluppo.</p></div>
+      <article class="project-entry" aria-labelledby="norma-title">
+        <div class="project-identity"><h3 id="norma-title">Norma<span>.</span></h3><p class="project-kind">Normalizzazione documentale</p><p class="project-contribution">Co-sviluppatore del progetto</p><a class="text-link" href="https://normalizer.it" target="_blank" rel="noopener noreferrer">Visita normalizer.it <svg aria-hidden="true"><use href="#arrow"/></svg></a></div>
+        <div class="project-description"><p class="lead">Da documenti eterogenei<br>a dati pronti all’uso.</p><p>Una piattaforma che trasforma PDF, fogli Excel, CSV, documenti Word e immagini in dati strutturati. Il riconoscimento dei layout e l’OCR si affiancano alla mappatura visuale: l’utente può verificare e correggere i risultati prima di esportarli.</p><ul class="project-capabilities"><li><strong>Carica e riconosci</strong><span>Documenti digitali e scansionati, con riconoscimento del layout.</span></li><li><strong>Verifica e mappa</strong><span>Template riutilizzabili e mappatura a zone sul documento.</span></li><li><strong>Esporta e automatizza</strong><span>Output Excel, CSV e JSON, con elaborazioni in coda.</span></li></ul><ul class="tags" aria-label="Tecnologie del progetto Norma"><li>ASP.NET Core</li><li>React</li><li>TypeScript</li><li>PostgreSQL</li><li>Docker</li></ul></div>
+      </article>
+      <article class="project-entry" aria-labelledby="shellbay-title">
+        <div class="project-identity"><h3 id="shellbay-title">ShellBay<span>.</span></h3><p class="project-kind">Ambiente di lavoro per sviluppatori e sistemisti</p><p class="project-contribution">Co-sviluppatore del progetto</p><p class="project-platforms">macOS · Windows · Linux</p></div>
+        <div class="project-description"><p class="lead">Connessioni, file e codice.<br>Nello stesso ambiente.</p><p>Un’applicazione desktop che riunisce terminali SSH a schede, trasferimento file, desktop remoti e strumenti di sviluppo. La vista Progetto integra file, editor e Git, per passare dalla gestione dei sistemi al lavoro sul codice.</p><ul class="project-capabilities"><li><strong>Connetti i sistemi</strong><span>SSH, desktop remoti RDP e VNC, tunnel e VPN.</span></li><li><strong>Gestisci i file</strong><span>SFTP e client a doppio pannello per FTP, FTPS e S3.</span></li><li><strong>Lavora sul codice</strong><span>Editor Monaco, Git e terminali nella vista Progetto.</span></li></ul><ul class="tags" aria-label="Tecnologie del progetto ShellBay"><li>Electron</li><li>Node.js</li><li>JavaScript</li><li>xterm.js</li><li>ssh2</li></ul></div>
+      </article>
+    </div></section>
+    <section class="work section" aria-labelledby="work-title"><div class="wrap">
+      <div class="section-heading"><h2 id="work-title">Il software evolve.<br><em>Insieme a chi lo usa.</em></h2><p>Alcuni degli ambiti su cui ho lavorato<br>nei team di sviluppo.</p></div>
+      <div class="work-grid"><div class="work-intro"><p class="lead">Applicazioni aziendali, integrazioni e dati: parti dello stesso sistema.</p><p>La raccolta dei requisiti e il confronto con il team IT aiutano a trasformare le necessità operative in funzionalità utilizzabili ogni giorno.</p></div><div class="work-details"><details open><summary>Gestionali TMS e WMS <span class="plus" aria-hidden="true"></span></summary><p>In Tgroup ho lavorato all’evoluzione del gestionale aziendale in Visual Basic, sviluppando moduli e personalizzando le form per i processi di trasporto e logistica.</p></details><details><summary>Servizi che comunicano <span class="plus" aria-hidden="true"></span></summary><p>Server REST API e sistemi EDI per integrare applicazioni esterne e automatizzare lo scambio di dati. In Win Software sviluppo servizi back-end e la logica di business delle applicazioni.</p></details><details><summary>Dati al servizio delle applicazioni <span class="plus" aria-hidden="true"></span></summary><p>Query, viste e procedure in T-SQL su SQL Server; progettazione delle tabelle e ottimizzazione degli indici su PostgreSQL. Un lavoro continuo su prestazioni, manutenzione e risoluzione dei problemi.</p></details></div></div>
+    </div></section>
+    <section class="section career wrap" id="percorso" aria-labelledby="career-title">
+      <div class="section-heading"><h2 id="career-title">Un percorso nel software.<br><em>Una crescita continua.</em></h2><a class="text-link" href="https://www.linkedin.com/in/vincenzo-galiano-771a09128/" target="_blank" rel="noopener noreferrer">Il profilo su LinkedIn <svg aria-hidden="true"><use href="#arrow"/></svg></a></div>
+      <ol class="timeline"><li><div class="period">Dicembre 2025 — oggi<span>Ottaviano · Campania</span></div><div><h3>Software Developer</h3><p class="company">Win Software Trasporti</p><p>Sviluppo back-end, REST API e logica di business. Gestione di database PostgreSQL, progettazione delle tabelle, ottimizzazione degli indici e delle query. Debugging e miglioramento delle funzionalità esistenti.</p><ul class="tags" aria-label="Ambiti Win Software"><li>Back-end</li><li>PostgreSQL</li><li>REST API</li></ul></div></li><li><div class="period">Novembre 2021 — dicembre 2025<span>Nola · Campania</span></div><div><h3>Back-End Desktop Developer</h3><p class="company">Tgroup S.p.A.</p><p>Manutenzione ed evoluzione del gestionale aziendale in Visual Basic, con sviluppo di form e moduli TMS e WMS. Ottimizzazione di SQL Server con T-SQL, sviluppo di REST API e integrazioni EDI. Raccolta dei requisiti e progettazione delle soluzioni con il team IT.</p><ul class="tags" aria-label="Ambiti Tgroup"><li>Visual Basic</li><li>SQL Server</li><li>T-SQL</li><li>EDI</li></ul></div></li></ol>
+    </section>
+    <section class="contact section" id="contatti" aria-labelledby="contact-title"><div class="wrap"><div class="contact-top"><h2 id="contact-title">Le idee migliori iniziano<br><em>con una conversazione.</em></h2><a class="contact-arrow" href="mailto:vincenzogaliano97@gmail.com" aria-label="Scrivi un’email a Vincenzo"><svg aria-hidden="true"><use href="#arrow"/></svg></a></div><a class="email" href="mailto:vincenzogaliano97@gmail.com">vincenzogaliano97@gmail.com</a><div class="contact-bottom"><p>Software, dati, nuove sfide.<br>Parliamone.</p><div><a href="https://www.linkedin.com/in/vincenzo-galiano-771a09128/" target="_blank" rel="noopener noreferrer">LinkedIn <svg aria-hidden="true"><use href="#arrow"/></svg></a><a href="https://github.com/vincenzogaliano97" target="_blank" rel="noopener noreferrer">GitHub <svg aria-hidden="true"><use href="#arrow"/></svg></a></div></div></div></section>
+  </main>
+  <footer class="footer wrap"><span>© <span id="year">2026</span> Vincenzo Galiano</span><span>Napoli, Italia</span><a href="#inizio">Torna all’inizio <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4m-6 6 6-6 6 6"/></svg></a></footer>
 </body>
 </html>
